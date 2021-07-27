@@ -2,9 +2,10 @@
 
 
 int main() {
-	
 
-	printf("Hello World\n");
-
+	char *name;
+	printf("Enter your name: ");
+	scanf("%s", name);
+	prinf("Your name is %s\n", name);
 	return 0;
 }
